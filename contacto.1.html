@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="img/logo.ico" type="image/x-icon">
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet"
+        type="text/css">
+    <link rel="stylesheet" href="boostrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Labtic</title>
+</head>
+
+<body>
+
+    <!-- Encabezado y menú de navegación / Header and navbar -->
+    <div class="container-fluid shadow p-3 mb-3 bg-white rounded">
+        <div class="container">
+            <div class="row">
+                <header class="col-12 col-md-6">
+                    <a href="index.html"><img class="logo float-left p-3" src="img/logo.png" alt="Logo de labtic"></a>
+                    <h1><strong>LabTIC&nbsp;-&nbsp;Unitec</strong></h1>
+                    <p class="text-secondary">Laboratorio de hardware y software de la facultad de ingeniería de la
+                        UNLP.</p>
+                </header>
+                <div class="col-12 col-md-6">
+                    <nav class="navbar navbar-expand-lg">
+                        <ul class="nav nav-pills">
+                            <li class="nav-item"><a href="index.html" class="nav-link"><i
+                                        class="fa fa-fw fa-home fa-lg"></i>Inicio</a></li>
+                            <li class="nav-item"><a href="proyectos.html" class="nav-link"><i
+                                        class="fa fa-fw fa-graduation-cap fa-lg"></i>Proyectos</a></li>
+                            <li class="nav-item"><a href="contacto.html" class="nav-link active"><i
+                                        class="fa fa-fw fa-lg -o fa-envelope"></i>Contacto</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <main class="container mt-5">
+                <h2 class="text-primary font-weight-bold pb-3">Contacto</h2>
+                <p>
+                    En LabTIC tenemos las puertas abiertas a la comunidad para recibir todos aquellos comentarios, inquietudes, consultas o
+                    pedido de asesoramiento que sean necesarios.
+                    <br>
+                    <br>
+                    A continuación ingrese sus datos en el siguiente formulario para realizar una consulta o solicitar información. Le
+                    responderemos a la mayor brevedad posible. No dudes en comunicarte también por nuestra vía telefónica al +54 221
+                    422-7628 de lunes a viernes de 9 a 18 hs.
+                </p>
+
+                <!-- Default form contact -->
+                
+                    <form name="frmContacto" method="post" action="sendbymail.php" class="text-center border border-light p-5">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <label for="first_name">Nombre: </label>
+                                <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Nombre">
+                            </div>
+                            
+                            <div class="col-lg-4">
+                                <label for="email">Dirección de E-mail: </label>
+                                <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail">
+                            </div>
+                            <div class="col-lg-4">
+                                <label for="telephone">Número de teléfono:</label>
+                                <input type="text" id="defaultContactFormEmail" class="form-control mb-4" placeholder="Teléfono">
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <!-- Message -->
+                                    <div class="form-group">
+                                        <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="9"
+                                            placeholder="Mensaje"></textarea>
+                                    </div>
+                            
+                                    <!-- Copy -->
+                                    <div class="custom-control custom-checkbox mb-4">
+                                        <input type="checkbox" class="custom-control-input" id="defaultContactFormCopy">
+                                        <label class="custom-control-label" for="defaultContactFormCopy">Quiero recibir una copia de este
+                                            mensaje</label>
+                                    </div>
+                            
+                                    <!-- Send button -->
+                                    <button class="btn btn-info" type="submit">Enviar</button>
+                                </div>
+                            </div>
+                        </div>
+                            
+                    </form>
+            
+        
+    </main>
+
+    <!-- Pie de pagina / Footer page -->
+    <footer class="footer container-fluid bg-primary text-white mt-auto pt-5 pb-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <h3 class="titulosDelFooter">Lab<strong>TIC</strong>- UNITEC</h3>
+                    <p>Departamento de Electrónica
+                        <br>Facultad de Ingeniería
+                        <br>Universidad Nacional de La Plata
+                        <br>
+                        <br>Calle 116 y 48, 2º Piso, La Plata
+                        <br>Teléfono: +54 221 422-7628
+
+                    </p>
+                    <ul class="listaDeRedesSociales">
+                        <li><a href="https://www.facebook.com/uid.unitec/"><i
+                                    class="fa fa-3x fa-facebook-square fa-fw text-inverse iconoRedesSociales"></i></a>
+                        </li>
+                        <li><a href="https://github.com/labtic-unitec"><i
+                                    class="fa fa-3x fa-github-square fa-fw text-inverse iconoRedesSociales"></i></a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-3x fa-rss-square fa-fw text-inverse iconoRedesSociales"></i></a>
+                        </li>
+                    </ul>
+                    <hr class="d-xl-none d-sm-block d-md-none">
+                </div>
+                <div class="col-12 col-md-4">
+                    <h3 class="titulosDelFooter">Como llegar</h3>
+                    <iframe width="100%" height="240px" class="pt-2" src="https://www.youtube.com/embed/xcJtL7QggTI"
+                        frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <hr class="d-xl-none d-sm-block d-md-none">
+                </div>
+                <div class="col-12 col-md-4">
+                    <h3 class="titulosDelFooter float-md-right">Sitios relacionados</h3>
+                    <ul class="d-flex flex-row float-md-right">
+                        <li><a href="https://www.facebook.com/uid.unitec/"><img src="img/LogoUNITEC.png"
+                                    class="logoDeSitiosRelacionados" alt="Logo del laboratorio Unitec"></a></li>
+                        <li><a href="#"><img src="img/LogoEDETEC.png" class="logoDeSitiosRelacionados"
+                                    alt="Logo del laboratorio de Edetec"></a></li>
+                        <li><a href="#"><img src="img/LogoLATE.png" class="logoDeSitiosRelacionados"
+                                    alt="Logo del laboratorio de Late"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <small class="float-right">Labtic-Unitec. 2019</small>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
